@@ -1,0 +1,23 @@
+/*.HeaderImge img{*/
+/*    width: 100%;*/
+/*    height: 130px;*/
+/*    border-radius: 0 0 0 60px;*/
+/*    transform: scaleX(-1);*/
+/*    object-fit: cover;*/
+/*    position: relative;*/
+/*}*/
+
+/*.contentHeader{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-content: center;*/
+/*    align-items: center;*/
+/*    padding: 0 3rem;*/
+/*    z-index: 99;*/
+/*}*/
+
+/*.HeaderImge{*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/* d-flex justify-content-between align-items-center container py-3*/

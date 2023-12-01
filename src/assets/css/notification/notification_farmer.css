@@ -1,0 +1,42 @@
+.notification-farmer-container .notification-list {
+    overflow-y: auto;
+    height: 100%;
+    padding: 0 0 20px 0;
+}
+
+.notification-farmer-container .notification-box {
+    border-radius: 12px;
+    border: 1px solid #EFBA00;
+    background: #EFBA00;
+}
+
+.notification-farmer-container .notification-box .noti-info-icon {
+    width: 10%;
+    height: 100%;
+    border-radius: 12px 0 0 12px;
+}
+
+.notification-farmer-container .notification-box .noti-info-icon .icon-box{
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-farmer-container .notification-box .noti-info-package {
+    width: 90%;
+    background: white;
+    border-radius: 0 12px 12px 0;
+}
+
+.notification-farmer-container .notification-box .noti-info-package .badge-approved-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border-radius: 50px;
+    white-space: nowrap;
+}

@@ -1,0 +1,67 @@
+.create-farm-container {
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+
+.create-farm-container .border-rounded {
+    border: 1px solid #e7e7e7;
+    border-radius: 24px;
+}
+
+.create-farm-container .farm-img-box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px dashed lightgray;
+}
+
+.create-farm-container .farm-img-box .btn-add-image {
+    background: #008F44;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    width: 50%;
+}
+
+.create-farm-container .farm-img-box .container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-farm-container .farm-img-box .image-icon {
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+    background: #E8FFF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-farm-container .btn-submit {
+    background: #0C9447;
+    color: white;
+    border-radius: 50px;
+    padding: 13px;
+}
+
+.create-farm-container .preview-image {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 24px;
+    border: 1px dashed lightgray;
+}
+
+.create-farm-container .preview-image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.pac-container {
+    z-index: 10000 !important;
+}

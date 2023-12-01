@@ -1,0 +1,49 @@
+.card-setting{
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.1);
+    /*height: 100%;*/
+    /*width: 100%;*/
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.status{
+    margin-top: 8px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.URL{
+    text-decoration: none;
+    color: #6e7881;
+}
+
+.icon-setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70px;
+    height: 35px;
+}
+
+button{
+    border:none;
+}
+
+.icon-setting-title{
+    font-size: 12px;
+}
+
+.footer{
+    border-top: solid 1px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+
+}

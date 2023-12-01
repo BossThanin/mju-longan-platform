@@ -1,0 +1,54 @@
+.farmer-list-container {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.farmer-list-container .search-longan-tree {
+    border-left: none;
+    background: #F4F4F7;
+}
+
+.farmer-list-container .farmers-list .farmer-box {
+    box-shadow: 0 4px 6px -1px #0000001A;
+    border-radius: 12px;
+    position: relative;
+}
+
+.farmer-list-container .farmers-list .farmer-box .badge-tab-status {
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 80%;
+    border-radius: 0 20px 20px 0;
+}
+
+.farmer-list-container .farmers-list .farmer-box .image-farmer {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.farmer-list-container .farmers-list .farmer-box .image-farmer img {
+    object-fit: cover;
+}
+
+.farmer-list-container .farmers-list .farmer-box .info-farmer {
+    flex-basis: 85%;
+    overflow-x: auto;
+}
+
+.farmer-list-container .farmers-list .farmer-box .info-farmer .farmer-status-box {
+    position: absolute;
+    padding: 15px;
+    background: #FFFCB5;
+}
+
+.farmer-list-container .farmers-list .farmer-box .farmer-status-badge {
+    padding: 5px 10px;
+    top: 0;
+    right: 15px;
+    border-radius: 100px;
+    font-size: 12px;
+    white-space: nowrap;
+}

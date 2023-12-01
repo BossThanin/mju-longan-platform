@@ -1,0 +1,19 @@
+/*Sweet Alert Style*/
+.swal2-show {
+    border-radius: 12px;
+}
+
+.swal2-title{
+    color: red;
+
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    font-size: 18px;
+    height: 53px;
+    border: 0;
+    border-radius: 12px;
+    background: initial;
+    background-color: #053b1astart;
+    color: #fff;
+}

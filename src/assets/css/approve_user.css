@@ -1,0 +1,46 @@
+.approve-user-container .user-badge-status {
+    padding: 5px 10px;
+    top: 0;
+    right: 15px;
+    border-radius: 100px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.approve-user-container .detail-box {
+    background: #F6FAFF;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.approve-user-container .detail-box .title-color {
+    color: #727178;
+}
+
+.badge-status {
+    border-radius: 100px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.approve-badge-status {
+    background: #DEF7EC;
+    color: #028C41;
+}
+
+.reject-badge-status {
+    background: #FDD1D9;
+    color: #ED2227;
+}
+
+.btn-confirm-approve {
+    background: #0E5590;
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 13px !important;
+}
+
+.btn-confirm-approve:focus {
+    border: none;
+}

@@ -1,0 +1,77 @@
+
+.pac-container{
+    /*background:white;*/
+    height: 20vh;
+    margin-top: 10px;
+    border: none;
+    /*display: block;*/
+    /*z-index: 9999;*/
+    overflow-y: scroll;
+    box-shadow: none;
+    padding: 5px;
+}
+.pac-item{
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.10), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+    white-space: inherit;
+}
+.pac-item span{
+    display: block;
+    font-size: 14px;
+}
+.pac-icon{
+    display: none !important;
+}
+.pac-item-query{
+    font-size: 16px;
+}
+.pac-matched{
+    /*color: #053b1a;*/
+    display: flex !important;
+}
+.marker-label {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    position: absolute;
+    left: -4.5rem;
+    top: -7rem;
+    font-family: 'Sarabun', 'sans-serif';
+    white-space: nowrap;
+    text-align: center;
+}
+
+.gmnoprint {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.gmnoprint button {
+    padding: 15px !important;
+}
+
+.SearchStyle{
+    padding: 20px;
+    border-radius: 40px 40px 0px 0px;
+    bottom: 0;
+    background:white;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 300px;
+}
+
+.buttonzoom{
+    z-index: 99999;
+    position: absolute;
+    bottom: 20rem;
+    right: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
